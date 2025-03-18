@@ -2,10 +2,8 @@ import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
   "stories": [
-    "../src/**/*.mdx",
-    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../stories/**/*.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)" // Aggiungi questa riga per includere le storie nella cartella stories
+    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   "addons": [
     "@storybook/addon-essentials",
