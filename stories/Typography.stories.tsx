@@ -1,7 +1,7 @@
 import {Meta, StoryObj} from '@storybook/react';
 import React, { Children } from 'react';
 const meta: Meta= {
-    title: 'Typography',
+    title: 'Atoms/Typography',
     parameters: {
     layout: 'centered',
     },

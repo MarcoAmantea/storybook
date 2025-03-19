@@ -1,7 +1,7 @@
 import {Meta, StoryObj} from "@storybook/react";
 import React from "react";
 const meta: Meta= {
-    title: "Spacing",
+    title: "Atoms/Spacing",
     parameters: {
         layout: 'centered',
     },
