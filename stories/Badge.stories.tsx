@@ -1,7 +1,7 @@
-import { title } from "process";
 import { Badge } from "../src/components/Badge/badge";
 import { Meta, StoryObj } from "@storybook/react";
 import React from "react";
+
 
 const meta: Meta<typeof Badge> = {
     title: "Atoms/Badge",

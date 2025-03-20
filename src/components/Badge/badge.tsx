@@ -1,5 +1,7 @@
-import "./badge.css";
+import css from "./badge.css?raw";
 import React from "react";
+import root from "react-shadow";
+
 
 type BadgeProps = {
   children?: React.ReactNode;
@@ -11,5 +13,10 @@ export const Badge: React.FC<BadgeProps> = ({
   variant = "default",
   ...attrs
 }) => {
-  return <span className= {`badge ${variant}`} {...attrs}>{children}</span>;
+    return( 
+    <root.div>
+      <style>{css}</style>
+      <span className= {`badge ${variant}`} {...attrs}>{children}</span>
+    </root.div>
+    )
 };
